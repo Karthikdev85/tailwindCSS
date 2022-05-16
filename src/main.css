@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;400;500&family=Lato&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.r-polygon {
+    clip-path: polygon(100% 31%, 0% 100%, 100% 100%);
+    background-color: #ff6d6d;
+}
+
+.l-polygon {
+    clip-path: polygon(0 0, 21% 0, 100% 100%, 0% 100%);
+    background-color: #ff6d6d;
+}
+
+
+
+.footer-triangle {
+    clip-path: polygon(100% 0, 16% 0, 100% 75%);
+    background-color: #ff6d6d;
+}
+
+.animated-img{
+    animation: move 7s ease-in-out infinite alternate;
+}
+
+@media (max-width: 1024px){
+    .r-polygon{
+        clip-path: inset(9% 6% 9% 6%); 
+     
+    }
+    .l-polygon {
+        clip-path: inset(9% 6% 9% 6%);
+   
+    }
+}
+
+@keyframes move {
+    from {
+        transform: scale(2.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
