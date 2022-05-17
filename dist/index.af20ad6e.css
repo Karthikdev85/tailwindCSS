@@ -318,6 +318,11 @@ img, video {
   margin-right: 1rem;
 }
 
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .mt-9 {
   margin-top: 2.25rem;
 }
@@ -599,9 +604,8 @@ img, video {
   object-fit: cover;
 }
 
-.py-36 {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
+.p-36 {
+  padding: 9rem;
 }
 
 .px-5 {
